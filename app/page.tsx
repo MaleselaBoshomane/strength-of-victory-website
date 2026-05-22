@@ -94,6 +94,18 @@ export default function StrengthOfVictoryChurchWebsite() {
                 >
                   Mother & Daughter
                 </Link>
+               <Link
+                  href="/youth/mother-daughter/father-sons"
+                  className="px-6 py-3 hover:bg-yellow-500 hover:text-black transition"
+                >
+                  Father & Sons
+                </Link>
+                <Link
+                  href="/youth/mother-daughter/father-sons/super-kids"
+                  className="px-6 py-3 hover:bg-yellow-500 hover:text-black transition"
+                >
+                  Super Kids
+                </Link> 
 
               </div>
 
@@ -121,10 +133,10 @@ export default function StrengthOfVictoryChurchWebsite() {
             </Link>
 
             <Link
-              href="/donations"
+              href="/giving"
               className="hover:text-yellow-400 transition"
             >
-              Donations
+              Giving
             </Link>
 
             <Link
@@ -181,6 +193,14 @@ export default function StrengthOfVictoryChurchWebsite() {
                   Mother & Daughter
                 </Link>
 
+                <Link href="/youth/mother-daughter/father-sons">
+                  Father & Sons
+                </Link>
+                
+                <Link href="/youth/mother-daughter/father-sons/super-kids">
+                  Super Kids
+                </Link>
+
               </div>
 
             )}
@@ -191,7 +211,7 @@ export default function StrengthOfVictoryChurchWebsite() {
 
             <Link href="/prayer">Prayer</Link>
 
-            <Link href="/donations">Donations</Link>
+            <Link href="/giving">Giving</Link>
 
             <Link href="/contact">Contact</Link>
 
@@ -209,7 +229,7 @@ export default function StrengthOfVictoryChurchWebsite() {
     backgroundImage:
       "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/hero-bg.png')",
     backgroundSize: "cover",
-    backgroundPosition: "center",
+    backgroundPosition: "70% 20%",
     backgroundRepeat: "no-repeat",
   }}
 
@@ -265,211 +285,6 @@ export default function StrengthOfVictoryChurchWebsite() {
           </div>
 
         </motion.div>
-
-      </section>
-
-      {/* ========================= PRAYER SECTION ========================= */}
-
-      <section className="bg-zinc-950 py-24 px-6 border-t border-white/10">
-
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-
-          <Image
-            src="/prayer.png"
-            alt="Prayer"
-            width={700}
-            height={700}
-            className="rounded-[2rem] shadow-2xl w-full h-auto object-cover"
-          />
-
-          <div>
-
-            <p className="text-yellow-500 uppercase tracking-[0.3em] mb-4">
-
-              Prayer Requests
-
-            </p>
-
-            <h2 className="text-5xl font-bold mb-8 text-white">
-
-              We Are Standing In Agreement With You
-
-            </h2>
-
-            <form
-              onSubmit={handlePrayerSubmit}
-              className="bg-zinc-900 rounded-3xl p-8 shadow-lg space-y-5 border border-white/10"
-            >
-
-              <input
-                type="text"
-                placeholder="Full Name"
-                required
-                className="w-full p-4 rounded-2xl bg-black border border-white/10 text-white placeholder:text-gray-500 outline-none focus:border-yellow-500"
-              />
-
-              <input
-                type="email"
-                placeholder="Email Address"
-                required
-                className="w-full p-4 rounded-2xl bg-black border border-white/10 text-white placeholder:text-gray-500 outline-none focus:border-yellow-500"
-              />
-
-              <textarea
-                rows={5}
-                placeholder="Prayer Request"
-                required
-                className="w-full p-4 rounded-2xl bg-black border border-white/10 text-white placeholder:text-gray-500 outline-none focus:border-yellow-500"
-              />
-
-              <button
-                type="submit"
-                className="bg-yellow-500 hover:bg-yellow-600 text-black w-full py-4 rounded-2xl font-semibold transition"
-              >
-
-                Submit Prayer Request
-
-              </button>
-
-            </form>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* ========================= GIVING ========================= */}
-
-      <section className="bg-black py-24 px-6 border-t border-white/10">
-
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-
-          <div>
-
-            <p className="text-yellow-500 uppercase tracking-[0.3em] mb-4">
-              Giving
-            </p>
-
-            <h2 className="text-5xl font-bold mb-8">
-              Make A Difference Today
-            </h2>
-
-            <div className="bg-zinc-900 rounded-[2rem] shadow-2xl p-10 border border-white/10">
-
-              <h3 className="text-3xl font-bold mb-8">
-                Banking Details
-              </h3>
-
-              <div className="space-y-4 text-lg text-gray-300">
-
-                <p>
-                  <strong>Account Holder:</strong>
-                  {" "}
-                  Strength of Victory
-                </p>
-
-                <p>
-                  <strong>Account Number:</strong>
-                  {" "}
-                  9142724028
-                </p>
-
-                <p>
-                  <strong>Bank:</strong>
-                  {" "}
-                  Absa Bank
-                </p>
-
-                <p>
-                  <strong>Branch Code:</strong>
-                  {" "}
-                  632005
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          <Image
-            src="/seed.png"
-            alt="Donations"
-            width={700}
-            height={700}
-            className="rounded-[2rem] shadow-2xl w-full h-auto object-cover"
-          />
-
-        </div>
-
-      </section>
-
-      {/* ========================= CONTACT ========================= */}
-
-      <section className="bg-zinc-950 text-white py-24 px-6 border-t border-white/10">
-
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-
-          <div>
-
-            <p className="text-yellow-500 uppercase tracking-[0.3em] mb-4">
-
-              Contact Us
-
-            </p>
-
-            <h2 className="text-5xl font-bold mb-8">
-
-              We Would Love To Hear From You
-
-            </h2>
-
-            <div className="space-y-6 text-lg text-gray-300">
-
-              <p>
-                📍 Shoshanguve Block XX, Gauteng
-              </p>
-
-              <p>
-                📞 +27 79 964 5579
-              </p>
-
-              <p>
-                ✉️ info@strengthofvictory.org.za
-              </p>
-
-            </div>
-
-            {/* SOCIAL MEDIA */}
-
-            <div className="mt-10 space-y-3 text-gray-300">
-
-              <p>
-                Facebook: Strength of Victory Ministries
-              </p>
-
-              <p>
-                Instagram: @strengthofvictory
-              </p>
-
-              <p>
-                TikTok: @strengthofvictory
-              </p>
-
-            </div>
-
-          </div>
-
-          <Image
-            src="/logo.png"
-            alt="Church Logo"
-            width={400}
-            height={400}
-            className="mx-auto"
-          />
-
-        </div>
 
       </section>
 

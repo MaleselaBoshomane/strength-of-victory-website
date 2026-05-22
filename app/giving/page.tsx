@@ -46,7 +46,7 @@ export default function DonationsPage() {
 
         <img
           src="/Seed.png"
-          alt="Donations"
+          alt="giving"
           className="rounded-[2rem] shadow-2xl w-full h-[600px] object-cover"
         />
 
