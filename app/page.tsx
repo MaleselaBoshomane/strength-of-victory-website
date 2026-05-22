@@ -204,12 +204,15 @@ export default function StrengthOfVictoryChurchWebsite() {
       {/* ========================= HERO ========================= */}
 
       <section
-        className="relative min-h-screen flex items-center justify-center text-center overflow-hidden"
+       className="relative min-h-screen flex items-center justify-center text-center overflow-hidden"
         style={{
-          backgroundImage: "url('/background.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
+    backgroundImage:
+      "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/hero-bg.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
+
       >
 
         <div className="absolute inset-0 bg-black/80"></div>
