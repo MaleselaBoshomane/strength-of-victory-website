@@ -15,7 +15,7 @@ export default function MotherDaughterPage() {
         <div className="grid md:grid-cols-2 gap-14 items-center">
 
           <img
-            src="/Mother and Daughter.png"
+            src="/mother.png"
             alt="Mother and Daughter"
             className="rounded-[2rem] shadow-2xl w-full h-[550px] object-cover"
           />

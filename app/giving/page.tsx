@@ -1,4 +1,4 @@
-export default function DonationsPage() {
+export default function GivingPage() {
   return (
     <main className="min-h-screen bg-white text-gray-800 py-32 px-6">
 
@@ -7,7 +7,7 @@ export default function DonationsPage() {
         <div>
 
           <p className="text-yellow-600 uppercase tracking-[0.3em] mb-4">
-            Donations
+            Giving
           </p>
 
           <h1 className="text-5xl font-bold mb-8">
@@ -45,7 +45,7 @@ export default function DonationsPage() {
         </div>
 
         <img
-          src="/Seed.png"
+          src="/seed.png"
           alt="giving"
           className="rounded-[2rem] shadow-2xl w-full h-[600px] object-cover"
         />

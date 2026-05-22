@@ -223,14 +223,12 @@ export default function StrengthOfVictoryChurchWebsite() {
 
       {/* ========================= HERO ========================= */}
 
-      <section
-       className="relative min-h-screen flex items-center justify-center text-center overflow-hidden"
-        style={{
+    <section
+  className="relative min-h-screen flex items-center justify-center text-center overflow-hidden bg-cover bg-center"
+  style={{
     backgroundImage:
-      "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/hero-bg.png')",
-    backgroundSize: "cover",
-    backgroundPosition: "70% 20%",
-    backgroundRepeat: "no-repeat",
+      "linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url('/hero-bg.png')",
+
   }}
 
       >
@@ -255,7 +253,7 @@ export default function StrengthOfVictoryChurchWebsite() {
 
           <p className="text-yellow-400 uppercase tracking-[0.4em] mb-4">
 
-            Standing In The Gap
+            Standing In The Gap Ezekiel 22:30
 
           </p>
 
@@ -272,17 +270,11 @@ export default function StrengthOfVictoryChurchWebsite() {
 
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-5 justify-center">
+          <p className="text-3xl md:text-5xl font-bold text-yellow-500 mb-6 leading-tight">
 
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-4 rounded-2xl font-semibold transition">
-              Join Us Sunday
-            </button>
+            Welcome
 
-            <button className="border border-yellow-500 hover:bg-yellow-500 hover:text-black px-8 py-4 rounded-2xl font-semibold transition">
-              Watch Sermons
-            </button>
-
-          </div>
+          </p>
 
         </motion.div>
 
