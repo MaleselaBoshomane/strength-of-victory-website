@@ -21,31 +21,56 @@ export default function PrayerPage() {
           </h1>
 
           <form
-            action="mailto:prayer@strengthofvictory.org.za"
+            action="https://formsubmit.co/prayer@strengthofvictory.org.za"
             method="POST"
-            encType="text/plain"
             className="bg-white rounded-3xl p-8 shadow-lg space-y-5"
           >
 
+            {/* Disable Captcha */}
+            <input type="hidden" name="_captcha" value="false" />
+
+            {/* Email Subject */}
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Prayer Request"
+            />
+
+            {/* Redirect After Submit */}
+            <input
+              type="hidden"
+              name="_next"
+              value="https://strengthofvictory.org.za/thank-you"
+            />
+
             <input
               type="text"
+              name="name"
               placeholder="Full Name"
+              required
               className="w-full p-4 rounded-2xl border"
             />
 
             <input
               type="email"
+              name="email"
               placeholder="Email Address"
+              required
               className="w-full p-4 rounded-2xl border"
             />
 
             <textarea
               rows={5}
+              name="message"
               placeholder="Prayer Request"
+              required
               className="w-full p-4 rounded-2xl border"
             />
 
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-white w-full py-4 rounded-2xl font-semibold">
+            <button
+              type="submit"
+              className="bg-yellow-500 hover:bg-yellow-600 text-white w-full py-4 rounded-2xl font-semibold"
+            >
               Submit Prayer Request
             </button>
 
