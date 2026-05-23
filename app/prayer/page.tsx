@@ -37,6 +37,14 @@ export default function PrayerPage() {
             />
 
             <input
+              type="text"
+              name="name"
+              placeholder="Full Name"
+              required
+              className="w-full p-4 rounded-2xl border"
+            />
+
+            <input
               type="email"
               name="email"
               placeholder="Email Address"
