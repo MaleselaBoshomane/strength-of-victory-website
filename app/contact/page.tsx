@@ -32,7 +32,8 @@ export default function ContactPage() {
 
               <p>📍 Shoshanguve Block XX, Gauteng</p>
 
-              <p>📞 +27 799645579</p>
+              <p>📞 +27 82 876 1484</p>
+              <p>📞 +27 82 373 7631</p>
 
               <p>✉️ info@strengthofvictory.org.za</p>
 
@@ -46,7 +47,7 @@ export default function ContactPage() {
 
                   {/* FACEBOOK */}
                   <a
-                    href="https://facebook.com"
+                    href="https://web.facebook.com/strengthofvictory/?_rdc=1&_rdr#"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white/10 hover:bg-yellow-500 hover:text-black transition duration-300 p-4 rounded-full"
@@ -56,7 +57,7 @@ export default function ContactPage() {
 
                   {/* INSTAGRAM */}
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/strengthofvictoryministries/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white/10 hover:bg-yellow-500 hover:text-black transition duration-300 p-4 rounded-full"
@@ -64,19 +65,9 @@ export default function ContactPage() {
                     Instagram
                   </a>
 
-                  {/* TWITTER */}
-                  <a
-                    href="https://twitter.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-white/10 hover:bg-yellow-500 hover:text-black transition duration-300 p-4 rounded-full"
-                  >
-                    Twitter
-                  </a>
-
                   {/* TIKTOK */}
                   <a
-                    href="https://tiktok.com"
+                    href="https://www.tiktok.com/@user146761695786?is_from_webapp=1&sender_device=pc"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white/10 hover:bg-yellow-500 hover:text-black transition duration-300 p-4 rounded-full"

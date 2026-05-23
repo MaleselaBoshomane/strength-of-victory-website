@@ -32,7 +32,7 @@ export default function SermonsPage() {
           <div className="bg-zinc-900 border border-white/10 rounded-[2rem] overflow-hidden shadow-2xl hover:-translate-y-2 transition duration-300">
 
             <img
-              src="/faith.png"
+              src="/Faithover.png"
               alt="Faith Over Fear"
               className="w-full aspect-[9/16] object-cover"
             />

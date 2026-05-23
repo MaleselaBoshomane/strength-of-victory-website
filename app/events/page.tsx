@@ -1,6 +1,6 @@
 export default function EventsPage() {
   return (
-    <main className="min-h-screen bg-white text-gray-800 pt-32 px-6">
+    <main className="min-h-screen bg-black text-yellow-500 pt-32 px-6">
       <div className="max-w-7xl mx-auto">
 
         <h1 className="text-5xl font-bold text-center mb-16">
@@ -9,44 +9,45 @@ export default function EventsPage() {
 
         <div className="grid md:grid-cols-3 gap-10">
 
-          <div className="bg-gray-100 rounded-[2rem] p-8 shadow-xl">
+          <div className="bg-gray-500 rounded-[2rem] p-8 shadow-xl">
             <h2 className="text-2xl font-bold mb-4">
               Sunday Worship
             </h2>
 
-            <p className="text-gray-700 mb-3">
+            <p className="text-white
+             mb-3">
               Every Sunday
             </p>
 
-            <p className="text-gray-700">
+            <p className="text-white">
               Join us for powerful worship and the Word of God.
             </p>
           </div>
 
-          <div className="bg-gray-100 rounded-[2rem] p-8 shadow-xl">
+          <div className="bg-gray-500 rounded-[2rem] p-8 shadow-xl">
             <h2 className="text-2xl font-bold mb-4">
-              Youth Conference
+              Thanksgiving Service
             </h2>
 
-            <p className="text-gray-700 mb-3">
-              June 2026
+            <p className="text-white mb-3">
+              October 2026
             </p>
 
-            <p className="text-gray-700">
-              Empowering the next generation through Christ.
+            <p className="text-white">
+              Thanking God for his goodness.
             </p>
           </div>
 
-          <div className="bg-gray-100 rounded-[2rem] p-8 shadow-xl">
+          <div className="bg-gray-500 rounded-[2rem] p-8 shadow-xl">
             <h2 className="text-2xl font-bold mb-4">
-              Prayer Night
+              Worship Night
             </h2>
 
-            <p className="text-gray-700 mb-3">
-              Friday 7PM
+            <p className="text-white mb-3">
+              30 August 2026
             </p>
 
-            <p className="text-gray-700">
+            <p className="text-white">
               A night of prayer, worship and breakthrough.
             </p>
           </div>

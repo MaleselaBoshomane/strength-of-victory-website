@@ -21,7 +21,7 @@ export default function PrayerPage() {
           </h1>
 
           <form
-            action="mailto:bosho.mf@gmail.com"
+            action="mailto:prayer@strengthofvictory.org.za"
             method="POST"
             encType="text/plain"
             className="bg-white rounded-3xl p-8 shadow-lg space-y-5"
