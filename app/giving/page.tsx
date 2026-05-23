@@ -45,7 +45,7 @@ export default function GivingPage() {
         </div>
 
         <img
-          src="/seed.png"
+          src="/giver.png"
           alt="giving"
           className="rounded-[2rem] shadow-2xl w-full h-[600px] object-cover"
         />
