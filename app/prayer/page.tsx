@@ -36,21 +36,6 @@ export default function PrayerPage() {
               value="New Prayer Request"
             />
 
-            {/* Redirect After Submit */}
-            <input
-              type="hidden"
-              name="_next"
-              value="https://strengthofvictory.org.za/thank-you"
-            />
-
-            <input
-              type="text"
-              name="name"
-              placeholder="Full Name"
-              required
-              className="w-full p-4 rounded-2xl border"
-            />
-
             <input
               type="email"
               name="email"
